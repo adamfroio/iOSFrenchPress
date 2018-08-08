@@ -17,6 +17,10 @@ DerivedData/
 !default.perspectivev3
 xcuserdata/
 
+## Certs
+*.p12
+*.mobileprovision
+
 ## Other
 *.moved-aside
 *.xccheckout

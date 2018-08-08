@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F00B09919D8EA4700053436 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F00B09819D8EA4700053436 /* Default-568h@2x.png */; };
+		7F5B513019D5E43900ED1F00 /* FPress100small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F5B512F19D5E43900ED1F00 /* FPress100small.png */; };
+		7F8A73CE19D3A0BB00AA290B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A73CD19D3A0BB00AA290B /* main.m */; };
+		7F8A73D119D3A0BB00AA290B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A73D019D3A0BB00AA290B /* AppDelegate.m */; };
+		7F8A73D419D3A0BB00AA290B /* AFFFrenchPressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A73D319D3A0BB00AA290B /* AFFFrenchPressViewController.m */; };
+		7F8A73D719D3A0BB00AA290B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A73D519D3A0BB00AA290B /* Main.storyboard */; };
+		7F8A73D919D3A0BB00AA290B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A73D819D3A0BB00AA290B /* Images.xcassets */; };
+		7F8A73DC19D3A0BB00AA290B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A73DA19D3A0BB00AA290B /* LaunchScreen.xib */; };
+		7F8A73E819D3A0BB00AA290B /* French_PressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A73E719D3A0BB00AA290B /* French_PressTests.m */; };
+		7F8DEC5F19D3A2E000B17ED3 /* AFFSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DEC5E19D3A2E000B17ED3 /* AFFSettingsViewController.m */; };
+		7F8DEC6B19D3A5E900B17ED3 /* AFFHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DEC6A19D3A5E900B17ED3 /* AFFHelpViewController.m */; };
+		7FA1D91A19D3CD0700A3BCE6 /* Alarm.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 7FA1D91919D3CD0700A3BCE6 /* Alarm.aiff */; };
+		7FDCA12A19D3F446002F6A8D /* AFFTimeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDCA12919D3F446002F6A8D /* AFFTimeTextField.m */; };
+		7FDCA12D19D3F4AF002F6A8D /* AFFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDCA12C19D3F4AF002F6A8D /* AFFUtility.m */; };
+		7FFC6D6419D8D578002D9FAF /* FPress100Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FFC6D6319D8D578002D9FAF /* FPress100Light.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F8A73E219D3A0BB00AA290B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F8A73C019D3A0BB00AA290B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F8A73C719D3A0BB00AA290B;
+			remoteInfo = "French Press";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F00B09819D8EA4700053436 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7F5B512F19D5E43900ED1F00 /* FPress100small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FPress100small.png; sourceTree = "<group>"; };
+		7F8A73C819D3A0BB00AA290B /* French Press.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "French Press.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8A73CC19D3A0BB00AA290B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8A73CD19D3A0BB00AA290B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F8A73CF19D3A0BB00AA290B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F8A73D019D3A0BB00AA290B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F8A73D219D3A0BB00AA290B /* AFFFrenchPressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFFFrenchPressViewController.h; sourceTree = "<group>"; };
+		7F8A73D319D3A0BB00AA290B /* AFFFrenchPressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFFFrenchPressViewController.m; sourceTree = "<group>"; };
+		7F8A73D619D3A0BB00AA290B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F8A73D819D3A0BB00AA290B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F8A73DB19D3A0BB00AA290B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7F8A73E119D3A0BB00AA290B /* French PressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "French PressTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8A73E619D3A0BB00AA290B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8A73E719D3A0BB00AA290B /* French_PressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = French_PressTests.m; sourceTree = "<group>"; };
+		7F8DEC5D19D3A2E000B17ED3 /* AFFSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFFSettingsViewController.h; sourceTree = "<group>"; };
+		7F8DEC5E19D3A2E000B17ED3 /* AFFSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFFSettingsViewController.m; sourceTree = "<group>"; };
+		7F8DEC6919D3A5E900B17ED3 /* AFFHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFFHelpViewController.h; sourceTree = "<group>"; };
+		7F8DEC6A19D3A5E900B17ED3 /* AFFHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFFHelpViewController.m; sourceTree = "<group>"; };
+		7FA1D91919D3CD0700A3BCE6 /* Alarm.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Alarm.aiff; sourceTree = "<group>"; };
+		7FDCA12819D3F446002F6A8D /* AFFTimeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFFTimeTextField.h; sourceTree = "<group>"; };
+		7FDCA12919D3F446002F6A8D /* AFFTimeTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFFTimeTextField.m; sourceTree = "<group>"; };
+		7FDCA12B19D3F4AF002F6A8D /* AFFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFFUtility.h; sourceTree = "<group>"; };
+		7FDCA12C19D3F4AF002F6A8D /* AFFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFFUtility.m; sourceTree = "<group>"; };
+		7FFC6D6319D8D578002D9FAF /* FPress100Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FPress100Light.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F8A73C519D3A0BB00AA290B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A73DE19D3A0BB00AA290B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F8A73BF19D3A0BB00AA290B = {
+			isa = PBXGroup;
+			children = (
+				7F8A73CA19D3A0BB00AA290B /* French Press */,
+				7F8A73E419D3A0BB00AA290B /* French PressTests */,
+				7F8A73C919D3A0BB00AA290B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F8A73C919D3A0BB00AA290B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F8A73C819D3A0BB00AA290B /* French Press.app */,
+				7F8A73E119D3A0BB00AA290B /* French PressTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F8A73CA19D3A0BB00AA290B /* French Press */ = {
+			isa = PBXGroup;
+			children = (
+				7FA1D91819D3CCF900A3BCE6 /* Media */,
+				7FDCA12719D3F3F5002F6A8D /* AFFUtility Classes */,
+				7F8A73CF19D3A0BB00AA290B /* AppDelegate.h */,
+				7F8A73D019D3A0BB00AA290B /* AppDelegate.m */,
+				7F8A73D219D3A0BB00AA290B /* AFFFrenchPressViewController.h */,
+				7F8A73D319D3A0BB00AA290B /* AFFFrenchPressViewController.m */,
+				7F8DEC5D19D3A2E000B17ED3 /* AFFSettingsViewController.h */,
+				7F8DEC5E19D3A2E000B17ED3 /* AFFSettingsViewController.m */,
+				7F8DEC6919D3A5E900B17ED3 /* AFFHelpViewController.h */,
+				7F8DEC6A19D3A5E900B17ED3 /* AFFHelpViewController.m */,
+				7F8A73D519D3A0BB00AA290B /* Main.storyboard */,
+				7F8A73DA19D3A0BB00AA290B /* LaunchScreen.xib */,
+				7F8A73D819D3A0BB00AA290B /* Images.xcassets */,
+				7F8A73CB19D3A0BB00AA290B /* Supporting Files */,
+			);
+			path = "French Press";
+			sourceTree = "<group>";
+		};
+		7F8A73CB19D3A0BB00AA290B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F8A73CC19D3A0BB00AA290B /* Info.plist */,
+				7F8A73CD19D3A0BB00AA290B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F8A73E419D3A0BB00AA290B /* French PressTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F8A73E719D3A0BB00AA290B /* French_PressTests.m */,
+				7F8A73E519D3A0BB00AA290B /* Supporting Files */,
+			);
+			path = "French PressTests";
+			sourceTree = "<group>";
+		};
+		7F8A73E519D3A0BB00AA290B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F8A73E619D3A0BB00AA290B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FA1D91819D3CCF900A3BCE6 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				7F00B09819D8EA4700053436 /* Default-568h@2x.png */,
+				7FFC6D6319D8D578002D9FAF /* FPress100Light.png */,
+				7F5B512F19D5E43900ED1F00 /* FPress100small.png */,
+				7FA1D91919D3CD0700A3BCE6 /* Alarm.aiff */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		7FDCA12719D3F3F5002F6A8D /* AFFUtility Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7FDCA12819D3F446002F6A8D /* AFFTimeTextField.h */,
+				7FDCA12919D3F446002F6A8D /* AFFTimeTextField.m */,
+				7FDCA12B19D3F4AF002F6A8D /* AFFUtility.h */,
+				7FDCA12C19D3F4AF002F6A8D /* AFFUtility.m */,
+			);
+			name = "AFFUtility Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F8A73C719D3A0BB00AA290B /* French Press */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8A73EB19D3A0BB00AA290B /* Build configuration list for PBXNativeTarget "French Press" */;
+			buildPhases = (
+				7F8A73C419D3A0BB00AA290B /* Sources */,
+				7F8A73C519D3A0BB00AA290B /* Frameworks */,
+				7F8A73C619D3A0BB00AA290B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "French Press";
+			productName = "French Press";
+			productReference = 7F8A73C819D3A0BB00AA290B /* French Press.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F8A73E019D3A0BB00AA290B /* French PressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8A73EE19D3A0BB00AA290B /* Build configuration list for PBXNativeTarget "French PressTests" */;
+			buildPhases = (
+				7F8A73DD19D3A0BB00AA290B /* Sources */,
+				7F8A73DE19D3A0BB00AA290B /* Frameworks */,
+				7F8A73DF19D3A0BB00AA290B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F8A73E319D3A0BB00AA290B /* PBXTargetDependency */,
+			);
+			name = "French PressTests";
+			productName = "French PressTests";
+			productReference = 7F8A73E119D3A0BB00AA290B /* French PressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F8A73C019D3A0BB00AA290B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Adam F Froio";
+				TargetAttributes = {
+					7F8A73C719D3A0BB00AA290B = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = XG8L92F575;
+						ProvisioningStyle = Automatic;
+					};
+					7F8A73E019D3A0BB00AA290B = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = XG8L92F575;
+						TestTargetID = 7F8A73C719D3A0BB00AA290B;
+					};
+				};
+			};
+			buildConfigurationList = 7F8A73C319D3A0BB00AA290B /* Build configuration list for PBXProject "French Press" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F8A73BF19D3A0BB00AA290B;
+			productRefGroup = 7F8A73C919D3A0BB00AA290B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F8A73C719D3A0BB00AA290B /* French Press */,
+				7F8A73E019D3A0BB00AA290B /* French PressTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F8A73C619D3A0BB00AA290B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8A73D719D3A0BB00AA290B /* Main.storyboard in Resources */,
+				7F5B513019D5E43900ED1F00 /* FPress100small.png in Resources */,
+				7F00B09919D8EA4700053436 /* Default-568h@2x.png in Resources */,
+				7F8A73DC19D3A0BB00AA290B /* LaunchScreen.xib in Resources */,
+				7FFC6D6419D8D578002D9FAF /* FPress100Light.png in Resources */,
+				7F8A73D919D3A0BB00AA290B /* Images.xcassets in Resources */,
+				7FA1D91A19D3CD0700A3BCE6 /* Alarm.aiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A73DF19D3A0BB00AA290B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F8A73C419D3A0BB00AA290B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8A73D419D3A0BB00AA290B /* AFFFrenchPressViewController.m in Sources */,
+				7FDCA12D19D3F4AF002F6A8D /* AFFUtility.m in Sources */,
+				7F8A73D119D3A0BB00AA290B /* AppDelegate.m in Sources */,
+				7F8A73CE19D3A0BB00AA290B /* main.m in Sources */,
+				7F8DEC6B19D3A5E900B17ED3 /* AFFHelpViewController.m in Sources */,
+				7FDCA12A19D3F446002F6A8D /* AFFTimeTextField.m in Sources */,
+				7F8DEC5F19D3A2E000B17ED3 /* AFFSettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A73DD19D3A0BB00AA290B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8A73E819D3A0BB00AA290B /* French_PressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F8A73E319D3A0BB00AA290B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F8A73C719D3A0BB00AA290B /* French Press */;
+			targetProxy = 7F8A73E219D3A0BB00AA290B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F8A73D519D3A0BB00AA290B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8A73D619D3A0BB00AA290B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F8A73DA19D3A0BB00AA290B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8A73DB19D3A0BB00AA290B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F8A73E919D3A0BB00AA290B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F8A73EA19D3A0BB00AA290B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F8A73EC19D3A0BB00AA290B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XG8L92F575;
+				INFOPLIST_FILE = "French Press/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bwa.French-Press";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		7F8A73ED19D3A0BB00AA290B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XG8L92F575;
+				INFOPLIST_FILE = "French Press/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bwa.French-Press";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		7F8A73EF19D3A0BB00AA290B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XG8L92F575;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "French PressTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/French Press.app/French Press";
+			};
+			name = Debug;
+		};
+		7F8A73F019D3A0BB00AA290B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XG8L92F575;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "French PressTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/French Press.app/French Press";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F8A73C319D3A0BB00AA290B /* Build configuration list for PBXProject "French Press" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8A73E919D3A0BB00AA290B /* Debug */,
+				7F8A73EA19D3A0BB00AA290B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8A73EB19D3A0BB00AA290B /* Build configuration list for PBXNativeTarget "French Press" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8A73EC19D3A0BB00AA290B /* Debug */,
+				7F8A73ED19D3A0BB00AA290B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8A73EE19D3A0BB00AA290B /* Build configuration list for PBXNativeTarget "French PressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8A73EF19D3A0BB00AA290B /* Debug */,
+				7F8A73F019D3A0BB00AA290B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F8A73C019D3A0BB00AA290B /* Project object */;
+}
